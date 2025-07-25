@@ -20,8 +20,8 @@ interface GameCardProps {
 
 export default function GameCard({
   title,
-  image,
   description,
+  image,
   tags,
   link,
 }: GameCardProps) {
