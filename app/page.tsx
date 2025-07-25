@@ -1,4 +1,5 @@
 import GameDevPortfolioMain from "@/components/GameDevPortfolioMain";
-export default function GameDevPortfolio() {
+
+export default function page() {
   return <GameDevPortfolioMain />;
 }
