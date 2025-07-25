@@ -1,11 +1,13 @@
 import GameCard from "./GameCard";
 
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 const games = [
   {
     title: "Basket-Ball",
     description:
       "A fantasy adventure RPG with stunning visuals and deep storytelling.",
-    image: "/basketball.png",
+    image: `${BASE_PATH}/basketball.png`,
     tags: ["Unity", "C#", "Physic-Based"],
     link: "https://www.crazygames.com/game/basket-ball",
   },
@@ -13,7 +15,7 @@ const games = [
     title: "Bounce It",
     description:
       "Fast-paced space shooter with procedural levels and intense boss fights.",
-    image: "/bounceit.png",
+    image: `${BASE_PATH}/bounceit.png`,
     tags: ["Unity", "C#", "Game Design", "Puzzle"],
     link: "https://www.addictinggames.com/puzzle/bounce-it",
   },
@@ -21,7 +23,7 @@ const games = [
     title: "Ball Throw",
     description:
       "2D physics game with 55 levels using a catapult to knock down chocolate boxes.",
-    image: "/ballthrow.jpeg",
+    image: `${BASE_PATH}/ballthrow.jpeg`,
     tags: ["Unity", "C#", "Puzzle", "Physic-Based"],
     link: "https://payidargames.itch.io/ballthrow",
   },
@@ -29,7 +31,7 @@ const games = [
     title: "Space Shooter",
     description:
       "2D physics game with 55 levels using a catapult to knock down chocolate boxes.",
-    image: "/spaceshooter.png",
+    image: `${BASE_PATH}/spaceshooter.png`,
     tags: ["Unity", "C#", "Vampire Survivors Like", "Game Design"],
     link: "https://bekranker.itch.io/space-shooter",
   },
@@ -37,7 +39,7 @@ const games = [
     title: "Oops! My King",
     description:
       "A bold tactical game where strategy, luck, and courage collide through cards and coins on a chess-inspired battlefield.",
-    image: "/oopsmyking.png",
+    image: `${BASE_PATH}/oopsmyking.png`,
     tags: ["Unity", "C#", "Board Game"],
     link: "https://murataydinh.itch.io/oopsmyking",
   },
@@ -45,7 +47,7 @@ const games = [
     title: "The Mazer",
     description:
       "Use different mechanics to increase the player's stress factor and encourage them to create a maze to solve the puzzle.",
-    image: "/themazer.png",
+    image: `${BASE_PATH}/themazer.png`,
     tags: ["Unity", "C#", "Puzzle"],
     link: "https://murataydinh.itch.io/themazer",
   },

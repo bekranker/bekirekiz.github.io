@@ -1,83 +1,85 @@
 import { JamCard } from "./JamCard";
 
+const BASE_PATH = "/bekirekiz.github.io";
+
 const jams = [
   {
     title: "Magnetron",
     description: "Made for Sandwich Jam.",
     link: "https://murataydinh.itch.io/magnetron",
-    image: "magethron.jpg",
+    image: `${BASE_PATH}/magethron.jpg`,
   },
   {
     title: "The Greatest Show",
     description: "Made for Mağara Jam.",
     link: "https://baykutay-hakan.itch.io/the-greatest-show",
-    image: "thegreatesshow.png",
+    image: `${BASE_PATH}/thegreatesshow.png`,
   },
   {
     title: "Sneezeland",
     description: "Made for Frozen Jam.",
     link: "https://bekranker.itch.io/sneezeland",
-    image: "sneezeland.jpg",
+    image: `${BASE_PATH}/sneezeland.jpg`,
   },
   {
     title: "Destina",
     description: "Made for Shelter Jam.",
     link: "https://mubareksincap.itch.io/destina",
-    image: "destina.png",
+    image: `${BASE_PATH}/destina.png`,
   },
   {
     title: "ColorCurve",
     description: "Made for Phone Jam.",
     link: "https://bekranker.itch.io/colorcurve",
-    image: "colorcurve.jpg",
+    image: `${BASE_PATH}/colorcurve.jpg`,
   },
   {
     title: "GameTech",
     description: "A tech-focused jam project.",
     link: "https://bekranker.itch.io/gametech",
-    image: "gametech.png",
+    image: `${BASE_PATH}/gametech.png`,
   },
   {
     title: "Sırayla Oyun Yapmaca",
     description: "Made for Making Games Together 2.",
     link: "https://bekranker.itch.io/sirayla-oyun-yapmaca",
-    image: "makinggames2.png",
+    image: `${BASE_PATH}/makinggames2.png`,
   },
   {
     title: "Laugh Me",
     description: "Made for GGJ 2024 (UNOG site).",
     link: "https://murataydinh.itch.io/laughme",
-    image: "laughme.png",
+    image: `${BASE_PATH}/laughme.png`,
   },
   {
     title: "Origins",
     description: "Made for Ice Breaking Jam 2.",
     link: "https://bekranker.itch.io/puzzle",
-    image: "origins.png",
+    image: `${BASE_PATH}/origins.png`,
   },
   {
     title: "Ninjago",
     description: "Made for Jammination 5.",
     link: "https://bekranker.itch.io/ninjago",
-    image: "ninjago.png",
+    image: `${BASE_PATH}/ninjago.png`,
   },
   {
     title: "Tough Roads",
     description: "Made for Making Games Together.",
     link: "https://lesodus.itch.io/tough-roads",
-    image: "toughroads.png",
+    image: `${BASE_PATH}/toughroads.png`,
   },
   {
     title: "Mag Boy",
     description: "Made for GGJ 2022.",
     link: "https://sevvalbbr.itch.io/mag-boy",
-    image: "magboy.png",
+    image: `${BASE_PATH}/magboy.png`,
   },
   {
     title: "Silhouette of Darkness",
     description: "Made for Pumpkin Jam.",
     link: "https://bekranker.itch.io/silhouette-of-darkness",
-    image: "silhouette.png",
+    image: `${BASE_PATH}/silhouette.png`,
   },
 ];
 
