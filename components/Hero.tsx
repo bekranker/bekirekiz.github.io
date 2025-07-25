@@ -23,10 +23,11 @@ export default function Hero() {
           user-focused games. Passionate about blending game tech and AI to
           design innovative, inspiring player experiences.
         </p>
-        <div className="flex justify-center space-x-4">
+
+        {/* Butonlar */}
+        <div className="flex flex-wrap justify-center gap-4">
           <Button
-            size="lg"
-            className="bg-purple-600 hover:bg-purple-700"
+            className="bg-purple-600 hover:bg-purple-700 px-6 py-2 text-base sm:px-4 sm:py-1 sm:text-sm"
             asChild
           >
             <a
@@ -34,15 +35,15 @@ export default function Hero() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <ExternalLink className="h-4 w-4 mr-4" />
+              <ExternalLink className="h-4 w-4 mr-2" />
               View My Games
             </a>
           </Button>
+
           <Button
             asChild
             variant="outline"
-            size="lg"
-            className="border-purple-500 text-purple-400 hover:bg-purple-500 hover:text-white bg-transparent"
+            className="border-purple-500 text-purple-400 hover:bg-purple-500 hover:text-white bg-transparent px-6 py-2 text-base sm:px-4 sm:py-1 sm:text-sm"
           >
             <a href="mailto:bekirekiz02@gmail.com">
               <Mail className="h-4 w-4 mr-2" />
