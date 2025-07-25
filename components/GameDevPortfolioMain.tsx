@@ -14,7 +14,6 @@ export default function GameDevPortfolioMain() {
       <AboutSection />
       <GamesSection />
       <GameJamsSection />
-      <ContactSection />
       <Footer />
     </div>
   );

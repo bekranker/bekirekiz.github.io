@@ -10,9 +10,9 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-purple-500/20 bg-slate-900/80 backdrop-blur supports-[backdrop-filter]:bg-slate-900/60">
-      <div className="container mx-auto flex h-16 items-center justify-between px-4 md:justify-center">
+      <div className="container mx-auto flex h-16 items-center justify-between px-4 md:justify-between">
         {/* Logo */}
-        <Link href="#" className="flex items-center space-x-2 md:mr-8">
+        <Link href="#" className="flex items-center space-x-2">
           <Gamepad2 className="h-6 w-6 text-purple-400" />
           <span className="font-bold text-white">GameDev</span>
         </Link>
@@ -46,7 +46,7 @@ export default function Header() {
         </nav>
 
         {/* GitHub Button - Desktop */}
-        <div className="hidden md:flex ml-8">
+        <div className="hidden md:flex ml-6">
           <Button
             asChild
             variant="outline"
